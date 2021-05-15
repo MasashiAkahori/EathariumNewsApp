@@ -13,6 +13,8 @@
 		495CBD29264E539000C1E9A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495CBD27264E539000C1E9A6 /* Main.storyboard */; };
 		495CBD2B264E539900C1E9A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495CBD2A264E539900C1E9A6 /* Assets.xcassets */; };
 		495CBD2E264E539900C1E9A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495CBD2C264E539900C1E9A6 /* LaunchScreen.storyboard */; };
+		495CBD36264E6C1700C1E9A6 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495CBD35264E6C1700C1E9A6 /* APICaller.swift */; };
+		495CBD38264E732000C1E9A6 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495CBD37264E732000C1E9A6 /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		495CBD2A264E539900C1E9A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		495CBD2D264E539900C1E9A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		495CBD2F264E539900C1E9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495CBD35264E6C1700C1E9A6 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		495CBD37264E732000C1E9A6 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				495CBD21264E539000C1E9A6 /* AppDelegate.swift */,
 				495CBD23264E539000C1E9A6 /* SceneDelegate.swift */,
 				495CBD25264E539000C1E9A6 /* ViewController.swift */,
+				495CBD37264E732000C1E9A6 /* NewsTableViewCell.swift */,
+				495CBD35264E6C1700C1E9A6 /* APICaller.swift */,
 				495CBD27264E539000C1E9A6 /* Main.storyboard */,
 				495CBD2A264E539900C1E9A6 /* Assets.xcassets */,
 				495CBD2C264E539900C1E9A6 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			files = (
 				495CBD26264E539000C1E9A6 /* ViewController.swift in Sources */,
 				495CBD22264E539000C1E9A6 /* AppDelegate.swift in Sources */,
+				495CBD38264E732000C1E9A6 /* NewsTableViewCell.swift in Sources */,
 				495CBD24264E539000C1E9A6 /* SceneDelegate.swift in Sources */,
+				495CBD36264E6C1700C1E9A6 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
